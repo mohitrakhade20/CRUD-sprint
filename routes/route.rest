@@ -1,0 +1,26 @@
+GET http://localhost:3000/users/1
+
+###
+
+GET http://localhost:3000/users/
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Mohit",
+    "userToPlatform": "a"
+}
+
+###
+PATCH http://localhost:3000/6013e250fc784923abf937bb
+Content-Type: application/json
+
+{
+    "name": "Mohit Rakhade"
+}
+
+
+
